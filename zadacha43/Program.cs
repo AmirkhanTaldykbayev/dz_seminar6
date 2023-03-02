@@ -26,4 +26,4 @@ double y1 = k1 * x + b1;
 double y2 = k2 * x + b2;
 
 Console.WriteLine(x);
-Console.WriteLine($"{y1} ; {y2}");
+Console.WriteLine($"{y1:f2} ; {y2:f2}");
