@@ -7,7 +7,7 @@ Console.WriteLine("Введите десятичное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
 // Вводим переменную, в которую будем выводить результат
-string result = "";
+string result = String.Empty;
 
 while (number >= 1)
 {
